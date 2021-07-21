@@ -131,7 +131,7 @@ drop table order_table
 
 
 --2
-Create table person (id int, firstname varchar(100), lastname varchar(100)) write a query that returns all employees whose last names  start with ìAî.
+Create table person (id int, firstname varchar(100), lastname varchar(100)) write a query that returns all employees whose last names  start with ‚ÄúA‚Äù.
 
 create table person (id int, firstname varchar(100), lastname varchar(100))
 --return all employees whose last names start with "A"
@@ -167,5 +167,5 @@ where p.manager_id is null
 --5
 Create table company ( companyname varchar(20) primary key, divisionName varchar(20) foreign key references location(divisionName))
 create table location ( divisionName varchar(20) primary key)
-create contacts ( contactname  varchar(20) , divisionName varchar(20) foreign key references location(divisionName), address varchar(20), MailOrSuite varchar(20))
+create table contacts ( contactname  varchar(20) , divisionName varchar(20) foreign key references location(divisionName), address varchar(20), MailOrSuite varchar(20))
 
