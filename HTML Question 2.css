@@ -1,0 +1,21 @@
+﻿* {
+  
+}
+
+h1 {
+    background-color: lightgray;
+}
+
+.content {
+
+    background-color: lightgray;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+
+div span {
+    background-color: lightgray
+}
