@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML CSS Register Form</title>
+    <link href="Style Sheet/Fakebook_Register_Form.css" rel="stylesheet" />
+</head>
+
+<body>
+    <form class="signup-form" action="/register" method="post">
+
+        <!-- form header -->
+        <div>
+            <p id="three">fakebook <a style="font-size:20px">&reg;</a></p>
+            <p id="one">Registeration</p>
+            <p id="two">It is safe and it will always be!</p>
+        </div>
+
+        <!-- form body -->
+        <div class="form-body">
+
+            <!-- Firstname and Lastname -->
+            <div class="horizontal-group">
+
+                <div class="form-group left">
+                    <fieldset class="field_set">
+                        <legend>None-Important Information</legend>
+                        <div class="row">
+                            <div class="column">
+                                <input type="text" id="text" class="form-input" placeholder="First Name" required="required">
+                            </div>
+                            <div class="column">
+                                <input type="number" id="number" class="form-input" placeholder="Last Name" required="required">
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="column">
+                                <input type="email" id="number" class="form-input" placeholder="Your Email" required="required">
+                            </div>
+                            <div class="column">
+                                <input type="Number" id="number" class="form-input" placeholder="Phone Number" required="required">
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="column">
+                                <input type="email" id="number" class="form-input" placeholder="Your Password" required="required">
+                            </div>
+                            <div class="column">
+                                <input type="Number" id="number" class="form-input" placeholder="Website" required="required">
+                            </div>
+                        </div>
+                        <br />
+                        <div>
+                            <label for="date" class="label-title">Birthday</label>
+                            <select class="form-input" id="level">
+                                <option value="B">05/09/2014 01:58 PM</option>
+                                <option value="I">05/10/2014 01:58 PM</option>
+                                <option value="A">05/11/2014 01:58 PM</option>
+                            </select>
+                        </div>
+                        <br />
+                        <div class="input-group">
+                            <label for="male"><input type="radio" name="gender" value="male" id="male"> Female</label>
+                            <label for="female"><input type="radio" name="gender" value="female" id="female"> Male</label>
+                            <label for="female"><input type="radio" name="gender" value="female" id="female"> Other</label>
+                        </div>
+                    </fieldset>
+                    <br />
+                    <div>
+                        <button type="submit" class="btn">Clear Form</button>
+                    </div>
+                </div>
+
+
+                <div class="form-group right">
+                    <fieldset class="field_set">
+                        <legend>Important Information *required</legend>
+                        <div>
+                            <div class="row">
+                                <div class="column">
+                                    <select class="form-input" id="level">
+                                        <option value="B">Country</option>
+                                        <option value="I">US</option>
+                                        <option value="A">Canada</option>
+                                    </select>
+                                </div>
+                                <div class="column">
+                                    <input type="Number" id="number" class="form-input" placeholder="Village" required="required">
+                                </div>
+                                <div class="column">
+                                    <input type="Number" id="number" class="form-input" placeholder="District" required="required">
+                                </div>
+                            </div>
+                            <br />
+                            <div class="row2">
+                                <div class="column2">
+                                    <input type="Number" id="number" class="form-input" placeholder="Street" required="required">
+                                </div>
+                                <div class="column2">
+                                    <input type="Number" id="number" class="form-input" placeholder="Nr" required="required">
+                                </div>
+                                <div class="column2">
+                                    <input type="Number" id="number" class="form-input" placeholder="Floor" required="required">
+                                </div>
+                                <div class="column2">
+                                    <input type="Number" id="number" class="form-input" placeholder="Ap Br" required="required">
+                                </div>
+                            </div>
+                            <br />
+                            <div class="row">
+
+                                <div class="column">
+                                    <label for="lastname" class="label-title">Door Color</label>
+                                    <input type="Number" id="number" class="form-input" placeholder="Village" required="required">
+                                </div>
+                                <br />
+                                <div class="column">
+                                    <input type="Number" id="number" class="form-input" placeholder="Water Meter Nr" required="required">
+                                </div>
+
+                                <div class="column">
+                                    <select class="form-input" id="level">
+                                        <option value="B">Aunt Panties Size</option>
+                                        <option value="I">S</option>
+                                        <option value="A">M</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-group">
+                                <label for="choose-file" class="label-title">More Personal Information</label>
+                                <textarea class="form-input" rows="2" cols="50" style="height:auto" placeholder="Give Us More Information!!!"></textarea>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div>
+                        <button type="submit" class="btn">Register</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </form>
+
+
+
+</body>
+</html>

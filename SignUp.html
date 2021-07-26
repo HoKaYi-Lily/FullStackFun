@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML CSS Register Form</title>
+    <link href="Style Sheet/SignUp.css" rel="stylesheet" />
+</head>
+
+<body>
+    <form class="signup-form" action="/register" method="post">
+
+        <!-- form header -->
+        <div class="form-header">
+            <h1>Sign Up</h1>
+        </div>
+
+        <!-- form body -->
+        <div class="form-body">
+
+            <!-- Firstname and Lastname -->
+            <div class="horizontal-group">
+                <div class="form-group left">
+                    <input type="text" id="firstname" class="form-input" placeholder="First Name" required="required" />
+                </div>
+                <div class="form-group right">
+                    <input type="text" id="lastname" class="form-input" placeholder="Last Name" />
+                </div>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+                <input type="number" id="number" class="form-input" placeholder="Mobile No." required="required">
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" class="form-input" placeholder="Email Address" required="required">
+            </div>
+            <!-- Passwrod and confirm password -->
+            <div class="horizontal-group">
+                <div class="form-group left">
+                    <input type="password" id="password" class="form-input" placeholder="Password" required="required">
+                </div>
+                <div class="form-group right">
+                    <input type="password" class="form-input" id="confirm-password" placeholder="Confirm Password" required="required">
+                </div>
+            </div>
+
+            <!-- Gender and Hobbies -->
+            <div class="horizontal-group2">
+                <div class="form-group left">
+                    <div class="checkbox">
+                        <label><input type="checkbox" value="Web" class="checkbox">I Agree</label>
+                    </div>
+                </div>
+                <div class="form-group right">
+                    <div>
+                        By Clicking  <button type="submit" class="btn">Register</button>, you agree to the<a href="https://www.home.com">Terms and Condition</a> set out by this site, including our Cookie Use.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Source of Income and Income -->
+            <div class="horizontal-group">
+                <div class="form-group left">
+                    <button type="submit" class="btn2">Register</button>
+                </div>
+                <div class="form-group right">
+                    <button type="submit" class="btn3">Sign In</button>
+                </div>
+            </div>
+
+    </form>
+
+
+</body>
+</html>

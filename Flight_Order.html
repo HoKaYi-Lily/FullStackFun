@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Flight Order</title>
+    <link href="Style Sheet/Index5.css" rel="stylesheet" />
+</head>
+<body>
+    <form class="signup-form" action="/register" method="post">
+
+        <!-- form header-->
+        <div class="form-header">
+            <h1>FLIGHT ORDER</h1>
+        </div>
+
+        <!--form body-->
+        <div class="form-body">
+
+            <!--Left side From Info-->
+            <div class="horizontal-group">
+                <div class="form-group left">
+                    <div class="form-group">
+                        <label for="Check date" class="label-title">From</label>
+                        <select class="form-input" id="level">
+                            <option value="B">enter a city</option>
+                            <option value="I">USA</option>
+                            <option value="A">Canada</option>
+                        </select>
+                    </div>
+                    <div>
+                        <br />
+                        <label for="Check date" class="label-title">Departure Date</label>
+                        <input type="text" class="form-input" id="date" placeholder="09.06.2014" required="required">
+                    </div>
+                    <div>
+                        <label for="Check date" class="label-title">Return Date</label>
+                        <input type="text" class="form-input" id="date" placeholder="13.06.2014" required="required">
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <label for="Check date" class="label-title">12+</label>
+                            <input type="number" id="number" class="form-input" placeholder="0" required="required">
+                        </div>
+                        <div class="column">
+                            <label for="Check date" class="label-title">2-12</label>
+                            <input type="number" id="number" class="form-input" placeholder="0" required="required">
+                        </div>
+                        <div class="column">
+                            <label for="Check date" class="label-title">0-2</label>
+                            <input type="number" id="number" class="form-input" placeholder="0" required="required">
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="form-group right">
+                    <div class="form-group">
+                        <label for="Check date" class="label-title">To</label>
+                        <select class="form-input" id="level">
+                            <option value="B">enter a city</option>
+                            <option value="I">USA</option>
+                            <option value="A">Canada</option>
+                        </select>
+                    </div>
+                    <div class="checkbox"><label><input type="checkbox" value="Web" />Prefer directs</label></div>
+                    <div class="row">
+                        <div class="column">
+                            <label for="Check date" class="label-title">Time Interval</label>
+                            <input type="number" id="number" class="form-input" placeholder="00:20" required="required">
+                        </div>
+                        <div class="column">
+                            <br />
+                            <input type="number" id="number" class="form-input" placeholder="05:00" required="required">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <label for="Check date" class="label-title">Time Interval</label>
+                            <input type="number" id="number" class="form-input" placeholder="16:00" required="required">
+                        </div>
+                        <div class="column">
+                            <br />
+                            <input type="number" id="number" class="form-input" placeholder="22:00" required="required">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="Check date" class="label-title">Choose class</label>
+                        <select class="form-input" id="level">
+                            <option value="B">Economy</option>
+                            <option value="I">Business</option>
+                            <option value="A">Causal</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn">Search</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </form>
+</body>
+</html>
+

@@ -1,0 +1,186 @@
+﻿/*---------------------------------------*/
+/* Font */
+/*---------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*---------------------------------------*/
+/* Register Form */
+/*---------------------------------------*/
+body {
+}
+
+.signup-form {
+    font-family: Arial;
+    width: 650px;
+    margin: 30px auto;
+    background-color: white;
+}
+
+
+.form-header h1 {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding: 0px;
+    top: -8px;
+}
+/*---------------------------------------*/
+/* Form Header */
+/*---------------------------------------*/
+
+.form-body {
+    padding: 10px 40px;
+    color: #666;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+.form-body .form-input {
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 41px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #333333;
+    text-align: left;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: white;
+    outline: none;
+}
+
+.form-input:hover {
+    border-color: deepskyblue;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+
+.horizontal-group .right {
+    float: right;
+    width: 49%;
+}
+
+.horizontal-group .left {
+    float: left;
+    width: 49%;
+}
+
+.horizontal-group2 .right {
+    float: right;
+    width: 70%;
+}
+
+.horizontal-group2 .left {
+    float: left;
+    width: 30%;
+}
+
+input[type="file"] {
+    outline: none;
+    cursor: pointer;
+    font-size: 17px
+}
+
+#range-label {
+    width: 15%;
+    padding: 5px;
+    background-color: pink;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    position: relative;
+    top: -8px;
+}
+
+::-webkit-input-placeholder {
+    color: #d9d9d9;
+}
+
+/*---------------------------------------*/
+/* Form Footer */
+/*---------------------------------------*/
+
+.signup-form .form-footer {
+    background-color: royalblue;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 40px;
+    text-align: right;
+    border-top: 1px solid #CCCCCC;
+    clear: both;
+}
+
+.form-footer span {
+    float: left;
+    margin-top: 10px;
+    color: #999;
+    font-style: italic;
+    font-weight: thin;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0px 0px;
+    background-color: dodgerblue;
+    font-size: 15px;
+    height: 20%;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+    .btn:hover {
+        background-color: #169c7b;
+        color: white;
+    }
+
+.btn2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    height: 42px;
+}
+
+.btn:hover {
+    background-color: #169c7b;
+    color: white;
+}
+
+.btn3 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: limegreen;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    height: 42px;
+}
+
+.btn:hover {
+    background-color: #169c7b;
+    color: white;
+}
+
+.checkbox {
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    zoom: 1.1;
+    position: relative;
+    top: 2px;
+}
