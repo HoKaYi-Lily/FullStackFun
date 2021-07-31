@@ -1,0 +1,193 @@
+﻿
+/*---------------------------------------*/
+/* Font */
+/*---------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*---------------------------------------*/
+/* Register Form */
+/*---------------------------------------*/
+body {
+    background-color: lightskyblue
+}
+
+.signup-form {
+    font-family: "Roboto", sans-serif;
+    width: 1000px;
+    margin: 30px auto;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+}
+
+.form-header {
+    width: 1000px;
+    height: 50px;
+    background: linear-gradient(to bottom right, blue, pink);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+     .btn1 {
+       float:right;
+       position:relative;
+       top:20px;
+       right:20px;
+        background-color: orange;
+        color:white;
+        height: 20px;
+        width: 60px;
+        cursor: pointer;
+    }
+/*---------------------------------------*/
+/* Form Header */
+/*---------------------------------------*/
+hr {
+   
+    color:ghostwhite;
+ 
+}
+
+.column .one {
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    height: 280px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+a{
+    font-size:13px;
+    text-align:center;
+    color:navy;
+    font-weight:bold;
+}
+b {
+    font-size: 12px;
+    float: right;
+    color: dimgray;
+    position:relative;
+    top:8px;
+    right:8px;
+}
+
+c {
+    font-size: 11px;
+    float: left;
+    color: dimgray;
+    position: relative;
+  
+}
+
+
+img {
+    max-height: 100px;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+e {
+    font-size: 11px;
+    float: left;
+    color: dimgray;
+    position: relative;
+}
+f {
+    font-size: 11px;
+    float: left;
+    color: darkslategray;
+    font-weight:bold;
+    position: relative;
+}
+g {
+    font-size: 11px;
+    float: left;
+    color: black;
+    position: relative;
+}
+.two {
+}
+
+.three {
+}
+
+.column {
+    color: black;
+    float: left;
+    width: 30%;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-bottom: 30px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    color: black;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form-body {
+    padding: 10px 40px;
+    color: #666;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-body .label-title {
+    color: #1BBA93;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+
+
+/*---------------------------------------*/
+/* Form Footer */
+/*---------------------------------------*/
+
+.signup-form .form-footer {
+    background-color: #F0F0F0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 40px;
+    text-align: right;
+    clear: both;
+    height: 60px;
+}
+
+.form-footer span {
+    float: left;
+    margin-top: 10px;
+    color: #999;
+    font-style: italic;
+    font-weight: thin;
+}
+
+.btn {
+    float: left;
+    border-width: 1px;
+    border-style:solid;
+    border-color: white;
+    background-color: cornflowerblue;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    position: relative;
+    padding-right: 10px;
+}
+
+    .btn:hover {
+        background-color: orange;
+        color: white;
+    }
+.form-footer ul {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}

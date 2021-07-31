@@ -1,0 +1,41 @@
+﻿img{
+    max-height:600px;
+    max-width:300px;
+}
+.btn{
+    width:100%;
+    height:40px;;
+}
+
+
+ .thead .td {
+    border: 1px solid black;
+    height:10px;
+  width:20px;
+}
+
+.tbody .a {
+    border: 1px solid black;
+    height: 100px;
+    width: 20px;
+}
+
+.signup-form .form-footer {
+    background-color:lawngreen;
+    position: relative;
+    float: left;
+    text-align: left;
+    width: 100%;
+    clear: both;
+    height:80px;
+}
+
+.form-footer span {
+    color: black;
+   font-size:12px;
+   position:relative;
+   left:10px;
+   top:10px;
+
+}
+
