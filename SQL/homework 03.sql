@@ -27,7 +27,7 @@
 --The value in an identity column is created by the server. The SQL Delete retains the identity and does not reset it to the seed value. 
 --The SQL Truncate command reset the identity to its seed value. 
 
-----6. What is difference between ìdelete from table_nameî and ìtruncate table table_nameî?
+----6. What is difference between ‚Äúdelete from table_name‚Äù and ‚Äútruncate table table_name‚Äù?
 --TRUNCATE always removes all the rows from a table, leaving the table empty and the table structure intact whereas DELETE may remove conditionally if the where clause is used. The rows deleted by TRUNCATE TABLE statement cannot be restored and you can not specify the where clause in the TRUNCATE statement.
 
 
