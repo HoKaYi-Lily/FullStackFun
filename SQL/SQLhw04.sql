@@ -48,11 +48,11 @@
 
 -- 1
 
---A new region called “Middle Earth”;
+--A new region called â€œMiddle Earthâ€;
 insert into Region values (5, 'Middle Earth')
---A new territory called “Gondor”, belongs to region “Middle Earth”;
+--A new territory called â€œGondorâ€, belongs to region â€œMiddle Earthâ€;
 insert into Territories values (123456, 'Gondor', 5)
---A new employee “Aragorn King” who's territory is “Gondor”.
+--A new employee â€œAragorn Kingâ€ who's territory is â€œGondorâ€.
 insert into Employees ( LastName, FirstName) values ('Gondor', 'Aragorn')
 insert into EmployeeTerritories values (10,123456)
 
