@@ -1,0 +1,91 @@
+﻿.panel {
+    font-family:Calibri;
+}
+
+.panel-primary{
+    border: 1px solid #0094ff
+}
+
+.panel-header{
+    background-color:lightpink;
+    color:black;
+    padding: 5px 10px;
+}
+
+.panel-body{
+    padding:10px;
+}
+
+.panel-footer{
+    background-color:#e5e1e1;
+    padding:10px;
+}
+
+.form-control{
+    display:block;
+    padding:5px 10px;
+    width:80%
+}
+
+.form-group{
+    margin-bottom:10px;
+}
+
+.btn{
+    padding:5px 10px;
+    border:none;
+    background-color:pink;
+}
+
+.btn-primary {
+    background-color: pink;
+    color: black;
+}
+
+.btn-danger{
+    background-color:lime;
+    color:black;
+}
+
+/***********table css ****************/
+
+.table {
+    text-align: center;
+    font-family: Calibri;
+    min-height: 100px;
+    border-collapse: collapse;
+}
+
+    .table th, .table td {
+        padding: 5px 10px;
+    }
+
+.table-stripped tbody tr:nth-child(2n+1) {
+    background-color: pink;
+}
+
+.table-border tbody td{
+    border-top:1px solid black;
+}
+
+.pagination {
+    background-color:cornflowerblue;
+   
+}
+
+    .pagination li {
+        display: inline-block;
+        padding: 5px 10px;
+    }
+
+.pagination a{
+    text-decoration:none;
+    color:white;
+}
+
+    .pagination li:hover {
+        background-color: indigo;
+        cursor: grab;
+    }
+
+  
